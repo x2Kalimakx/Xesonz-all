@@ -33,6 +33,9 @@ elseif Pl == 16448761503 then -- Rung sea
 elseif Pl == 78681874345659 then -- Error Zone
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/error-zone/refs/heads/main/kak"))()
 
+elseif Pl == 16732694052 then -- Error Zone
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/fisch/refs/heads/main/kak.lua"))()
+
 else
     game.Players.LocalPlayer:Kick("Script Not Found Map")
     wait(1)
