@@ -1,13 +1,13 @@
 local Pl = game.PlaceId
 
 if Pl == 16448761503 then -- Rung sea
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/rungsea/refs/heads/main/kak"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/x2Kalimakx/rungsea/refs/heads/main/kak"))()
 
 elseif Pl == 78681874345659 then -- Error Zone
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/error-zone/refs/heads/main/kak"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/x2Kalimakx/error-zone/refs/heads/main/kak"))()
 
 elseif Pl == 16732694052 then -- fisch
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/fisch/refs/heads/main/kak.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/x2Kalimakx/fisch/refs/heads/main/kak.lua"))()
 
 else
     game.Players.LocalPlayer:Kick("Script Not Found Map")
