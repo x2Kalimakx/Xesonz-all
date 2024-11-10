@@ -11,6 +11,4 @@ elseif Pl == 16732694052 then -- fisch
 
 else
     game.Players.LocalPlayer:Kick("Script Not Found Map")
-    wait(1)
-    game:GetService("TeleportService"):Teleport(game.Pl, game:GetService("Players").LocalPlayer)
 end
