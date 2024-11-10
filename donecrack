@@ -1,43 +1,16 @@
 local Pl = game.PlaceId
 
-if Pl == 7622046644  then -- Monster Ghoul
-    loadstring(game:HttpGet("https://pst.innomi.net/paste/d5e98c7eg9ayc3bf9mgb8vq3/raw"))()
-
-elseif Pl == 17167990958 then -- Rock Fruit
-    loadstring(game:HttpGet("https://pst.innomi.net/paste/bav6whx2g59dywpspkue8jvh/raw"))()
-
-elseif Pl == 15694107053 or Pl == 17889317592 then -- Jujutsu Legacy
-    loadstring(game:HttpGet("https://pst.innomi.net/paste/hpvg86n976oqc4kyxj3jbbh6/raw"))()
-
-elseif Pl == 10260193230 then -- Meme Sea
-    loadstring(game:HttpGet("https://pst.innomi.net/paste/88c7jvfpbcf7p59bk5n9ed9k/raw"))()
-
-elseif Pl == 15049111150 then -- Second Sea
-    loadstring(game:HttpGet("https://pst.innomi.net/paste/uecqsjs7mytn2wufuvvt9saq/raw"))()
-
-elseif Pl == 394506555 then -- Glue Piece
-    loadstring(game:HttpGet("https://pst.innomi.net/paste/zzqgfncah97p3cmzw5446kkh/raw"))()
-
-elseif Pl == 18271034370 then -- Sakura Piece
-    loadstring(game:HttpGet("https://pst.innomi.net/paste/s9qysa7pyh9zfze3kqwndrcn/raw"))()
-
-elseif Pl == 18337464872 then -- Weak Legacy
-    loadstring(game:HttpGet("https://pst.innomi.net/paste/ufrb355sd8u8a38xjoy8zxxv/raw"))()
-
-elseif Pl == 18688206652 then -- Ijulpiece2
-    loadstring(game:HttpGet("https://pst.innomi.net/paste/e4bm3zc67efhx2nd5xo6h9z4/raw"))()
-
-elseif Pl == 16448761503 then -- Rung sea
+if Pl == 16448761503 then -- Rung sea
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/rungsea/refs/heads/main/kak"))()
 
 elseif Pl == 78681874345659 then -- Error Zone
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/error-zone/refs/heads/main/kak"))()
 
-elseif Pl == 16732694052 then -- Error Zone
+elseif Pl == 16732694052 then -- fisch
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/fisch/refs/heads/main/kak.lua"))()
 
 else
     game.Players.LocalPlayer:Kick("Script Not Found Map")
     wait(1)
-	game:GetService("TeleportService"):Teleport(game.Pl, game:GetService("Players").LocalPlayer)
+    game:GetService("TeleportService"):Teleport(game.Pl, game:GetService("Players").LocalPlayer)
 end
